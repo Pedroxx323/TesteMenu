@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mChat"
+        android:icon="@drawable/baseline_chat"
+        android:title="Conversa"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mUpadate"
+        android:icon="@drawable/baseline_update"
+        android:title="Atualizações"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mGroup"
+        android:icon="@drawable/baseline_group"
+        android:title="Comunidade"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mPhone"
+        android:icon="@drawable/baseline_phone"
+        android:title="Telefone"
+        app:showAsAction="ifRoom" />
+
+</menu>

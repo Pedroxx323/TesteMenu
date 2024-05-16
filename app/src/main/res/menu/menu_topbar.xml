@@ -2,33 +2,31 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:title="novo"
+        android:id="@+id/m"
         android:icon="@drawable/baseline_add"
-        android:id="@+id/mAdd"
+        android:title="novo"
         app:showAsAction="ifRoom" />
     <item
-        android:title="Cadastrar"
-        android:icon="@drawable/baseline_person_add"
         android:id="@+id/mCadastrar"
+        android:icon="@drawable/baseline_person_add"
+        android:title="Cadastrar"
         app:showAsAction="ifRoom" />
 
     <item
-        android:title="Alterar"
-        android:icon="@drawable/baseline_update"
         android:id="@+id/mUpdate"
+        android:icon="@drawable/baseline_update"
+        android:title="Alterar"
         app:showAsAction="ifRoom" />
     <item
-        android:title="Remover"
-        android:icon="@drawable/baseline_delete"
         android:id="@+id/mDelete"
+        android:icon="@drawable/baseline_delete"
+        android:title="Remover"
         app:showAsAction="ifRoom" />
     <item
-        android:title="Buscar"
-        android:icon="@drawable/baseline_search"
         android:id="@+id/mSearch"
+        android:icon="@drawable/baseline_search"
+        android:title="Buscar"
         app:showAsAction="ifRoom" />
-
-
 
 
 </menu>
