@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="novo"
+        android:icon="@drawable/baseline_add"
+        android:id="@+id/mAdd"
+        app:showAsAction="ifRoom" />
+    <item
+        android:title="Cadastrar"
+        android:icon="@drawable/baseline_person_add"
+        android:id="@+id/mCadastrar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title="Alterar"
+        android:icon="@drawable/baseline_update"
+        android:id="@+id/mUpdate"
+        app:showAsAction="ifRoom" />
+    <item
+        android:title="Remover"
+        android:icon="@drawable/baseline_delete"
+        android:id="@+id/mDelete"
+        app:showAsAction="ifRoom" />
+    <item
+        android:title="Buscar"
+        android:icon="@drawable/baseline_search"
+        android:id="@+id/mSearch"
+        app:showAsAction="ifRoom" />
+
+
+
+
+</menu>
